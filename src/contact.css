@@ -1,0 +1,40 @@
+.contact
+{
+    padding-top: 1rem;
+}
+.contact__title{
+    display: flex;
+    justify-content: center;
+}
+.contact__form
+{
+    display: flex;
+    margin: auto;
+}
+
+form{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+}
+
+
+.contact__form_nombre
+{
+   
+}
+.contact_form__descr
+{
+    min-height: 150px;
+}
+
+.contact__form__enviar{
+    width: 150px;
+}
+
+.contact__form_nombre, .contact_form__descr, .contact__form__enviar
+{
+    height: 2rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
